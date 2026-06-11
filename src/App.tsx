@@ -253,14 +253,6 @@ export default function App() {
       <StarCanvas />
 
       <div className="card-wrapper">
-        {/* Top label */}
-        <div className="card-top-label">
-          <div className="lion-badge">
-            <img src="/logo.png" alt="LIKELION KNU" className="ln-logo-img" />
-            <span>LIKELION KNU 14th</span>
-          </div>
-        </div>
-
         {/* Main card */}
         <div className="id-card">
           <div className="card-glow" />
@@ -268,7 +260,7 @@ export default function App() {
           {/* Header */}
           <div className="card-header">
             <div>
-              <div className="header-club">{CARD_DATA.clubNameEn}</div>
+              <div className="header-club">{CARD_DATA.clubNameEn} <span className="header-year">14th</span></div>
               <div className="header-sub">MEMBERSHIP CARD · {CARD_DATA.university}</div>
             </div>
           </div>
