@@ -268,7 +268,7 @@ export default function App() {
           {/* Photo */}
           <div className="photo-area">
             <div className="photo-frame">
-              <img src="/park.jpeg" alt="lion" className="photo-img" />
+              <img src="/park2.jpeg" alt="lion" className="photo-img" />
             </div>
           </div>
 
